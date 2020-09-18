@@ -1,6 +1,6 @@
 ## code your solution here.
-class
-  @name  = Struct.new(:meow) do
+class Cat
+  attr_accessor  = Struct.new(:name) do
   def meow
     puts "meow!"
   end
